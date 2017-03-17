@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4.MongoDBDriver", "src\IdentityServer4.MongoDBDriver\IdentityServer4.MongoDBDriver.csproj", "{5695CC09-967B-436C-9B72-763DA897BE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{523DA739-C052-4B8B-A3C3-A5EBBC2859BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A9B2E702-AD61-411C-9E05-B9C571670787}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.MongoDBDriver.UnitTests", "test\IdentityServer4.MongoDBDriver.UnitTests\IdentityServer4.MongoDBDriver.UnitTests.csproj", "{285612E0-8CB7-4B38-8522-5C5D38CA23E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5695CC09-967B-436C-9B72-763DA897BE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5695CC09-967B-436C-9B72-763DA897BE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5695CC09-967B-436C-9B72-763DA897BE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5695CC09-967B-436C-9B72-763DA897BE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285612E0-8CB7-4B38-8522-5C5D38CA23E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285612E0-8CB7-4B38-8522-5C5D38CA23E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285612E0-8CB7-4B38-8522-5C5D38CA23E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285612E0-8CB7-4B38-8522-5C5D38CA23E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5695CC09-967B-436C-9B72-763DA897BE8E} = {523DA739-C052-4B8B-A3C3-A5EBBC2859BB}
+		{285612E0-8CB7-4B38-8522-5C5D38CA23E0} = {A9B2E702-AD61-411C-9E05-B9C571670787}
+	EndGlobalSection
+EndGlobal
